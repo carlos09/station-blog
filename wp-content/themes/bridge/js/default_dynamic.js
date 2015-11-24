@@ -121,7 +121,7 @@ function codeAddress(data) {
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[0].geometry.location,
-								icon:  'http://local.blog.stationlocal.com/wp-content/uploads/2015/11/locationpin.png',
+								icon:  'http://blog.stationlocal.com/wp-content/uploads/2015/11/locationpin.png',
 								title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -154,8 +154,8 @@ function showContactMap() {
 }
 
 var no_ajax_pages = [];
-var qode_root = 'http://local.blog.stationlocal.com/';
-var theme_root = 'http://local.blog.stationlocal.com/wp-content/themes/bridge/';
+var qode_root = 'http://blog.stationlocal.com/';
+var theme_root = 'http://blog.stationlocal.com/wp-content/themes/bridge/';
 var header_style_admin = "";
 if(typeof no_ajax_obj !== 'undefined') {
 	no_ajax_pages = no_ajax_obj.no_ajax_pages;
